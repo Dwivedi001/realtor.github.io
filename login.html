@@ -1,0 +1,124 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="top">
+            <div class="top1">
+                <div class="logo">
+                    <a href=" https://www.realtor.com/mortgage/"><img src="img/rdc-logo-default.svg" width="200px" alt=""></a>
+                </div>
+                <div class="mid">
+                    <div class="mid-item"><a href="#">buy
+                        <div class="mega">
+                            <div class="megaitem">
+                                123
+                            </div>
+                        </div>
+                    </a></div>
+                    <div class="mid-item"><a href="#">sell <div class="mega">
+                        <div class="megaitem">
+                            234
+                        </div>
+                    </div></a></div>
+                    <div class="mid-item"><a href="#">rent
+                         <div class="mega">
+                        <div class="megaitem">
+                            345
+                        </div>
+                    </div></a></div>
+                    <div class="mid-item"><a href="#">Mor <div class="mega">
+                        <div class="megaitem">
+                            345
+                        </div>
+                    </div></a></div>
+                    <div class="mid-item"><a href="#">find realtors <div class="mega">
+                        <div class="megaitem">
+                            345
+                        </div>
+                    </div></a></div>
+                    <div class="mid-item"><a href="#">My home <div class="mega">
+                        <div class="megaitem">
+                            345
+                        </div>
+                    </div></a></div>
+                    <div class="mid-item"><a href="#">news
+                        <div class="mega">
+                            <div class="megaitem">
+                                345
+                            </div>
+                        </div> </a></div>
+
+                </div>
+                <div class="manage">
+                    <div class="manage-1"> <a href="#"> manage </a>
+                    </div>
+                    <div class="manage-1"> <a href="#"> Advertise </a>
+                    </div>
+                </div>
+                <div class="account">
+                    <a href="login.html">login</a>
+                    <a class="signup" href="login.html">Sign up 
+                       
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="login">
+
+            <div id="login1">
+                <form name="myform" onsubmit=" return validate()" method="post" action=" #">
+                    <h2>Log in or create an account
+
+                    </h2>
+                    <label id="eAdress" for=""> email Address</label>
+                    <input type="text" name="name">
+                    <button class="btn1" type="submit"> continue</button>
+                    <div>or</div>
+                    <button class="btn2" type="submit">  <i class="bi bi-google"></i>continue to google </button>
+                    <button class="btn3" type="submit">  <i class="bi bi-facebook"></i> continue to facebook</button>
+                    <button class="btn4" type="submit"> <i class="bi bi-apple"></i>continue to apple </button>
+                    <button class="btn5" type="submit"> <i class="bi bi-envelope"></i> email me a link</button>
+                    <div>Are you a real estate agent?</div>
+                    <div>
+                        <a style="text-transform: capitalize; color: blue;" href=""> login</a>
+                        <a href=""> create</a> here
+                    </div>
+                    <div>By creating an account you agree to Realtor.com's</div>
+                    <div>
+                        <a href=""> terms</a>
+                        <a href=""> Condition</a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+    </section>
+    <script>
+        function validate() {
+            var name = document.myform.name.value;
+            if (name == "") {
+
+                document.getElementById("eAdress").innerHTML = "please fill name";
+                document.getElementById("eAdress").style.color = "red"
+                return false
+            }
+        }
+    </script>
+
+</body>
+
+</html>
